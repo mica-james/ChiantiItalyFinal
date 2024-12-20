@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+	<title class="survey_pg_title"> Chianti Region Quiz </title>
+	<link rel="stylesheet" href="../css/styling.css">
+	<script src="../javaScript/myjavascript.js" defer></script>
+</head>
+
+	<body>
+		<div id="mynav">
+			<ul>
+				<li> <a href ="../index.html">Home</a></li>
+				<li> <a href ="list.html">Accomodation</a></li>
+				<li> <a href ="link.html">Wineries</a></li>
+			</ul>
+		</div>
+		<img src="../pictures/vineyard.jpg" id="surveyPicture" alt="Vineyard">
+		<form action="survey_answers.html" method="get">
+			<fieldset id="borderimg">
+				<legend> Test Your Chianti Knowledge! </legend>
+			
+				<label for="q1"> 1.What Symbol Represents Chianti Classico? </label><br>
+				<input type="radio" id="q1a" name="q1" value="White Dove"> White Dove
+				<input type="radio" id="q1b" name="q1" value="Golden Lion"> Golden Lion
+				<input type="radio" id="q1c" name="q1" value="Black Rooster"> Black Rooster
+				<input type="radio" id="q1d" name="q1" value="Green Dragon"> Green Dragon
+				<input type="radio" id="q1e" name="q1" value="No Idea"> No Idea <br>
+				
+			
+			
+				<label for="q2"> 2.Which Flavors or aromas are Often Associaated with Chianti Wines? Select ALL That Apply: </label><br>				
+				<input type="checkbox" id="q2a" value="Chocolate"/> Chocolate
+				<input type="checkbox" id="q2b" name="q2" value="Strawberries"/> Strawberries
+				<input type="checkbox" id="q2c" name="q2" value="Leather"/> Leather
+				<input type="checkbox" id="q2d" name="q2" value="Tobacco"/> Tobacco
+				<input type="checkbox" id="q2e" name="q2" value="Other"/> Other
+				<input type="checkbox" id="q2f" name="q2" value="None"/> None <br>
+			
+			
+				<label for="q3"> 3.What is Your Favorite Kind of Chianti Wine? </label><br>
+				<input type="text" id="focus" name="fav_wine">
+			
+			</fieldset>
+		
+			<input type="submit" id="submit" value="submit">
+		
+		</form>	
+	</body>
+</html>
